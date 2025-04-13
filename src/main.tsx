@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import HorizontalDecks from './HorizontalDecks'
+import EnchantmentCard from './EnchantmentCard'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <HorizontalDecks />
-  </React.StrictMode>
+    <EnchantmentCard />
+  </React.StrictMode>,
 )
